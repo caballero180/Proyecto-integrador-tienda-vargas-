@@ -47,9 +47,9 @@
               <Group type="102" alignment="0" attributes="0">
                   <EmptySpace max="-2" attributes="0"/>
                   <Component id="panelLateral" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                  <Component id="Contenedor" min="-2" pref="1222" max="-2" attributes="0"/>
-                  <EmptySpace max="32767" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="Contenedor" min="-2" pref="1212" max="-2" attributes="0"/>
+                  <EmptySpace pref="16" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -80,14 +80,15 @@
           <Layout>
             <DimensionLayout dim="0">
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Component id="lbConsultas" alignment="0" pref="112" max="32767" attributes="0"/>
-                  <Component id="lbAltas" alignment="0" max="32767" attributes="0"/>
                   <Group type="102" alignment="1" attributes="0">
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Component id="cerrarSesion" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="cerrarSesion" alignment="0" max="32767" attributes="0"/>
+                          <Component id="lbVentas" alignment="0" max="32767" attributes="0"/>
+                          <Component id="lbConsultas" alignment="0" pref="112" max="32767" attributes="0"/>
+                          <Component id="lbAltas" max="32767" attributes="0"/>
+                      </Group>
                       <EmptySpace max="-2" attributes="0"/>
                   </Group>
-                  <Component id="lbVentas" alignment="0" max="32767" attributes="0"/>
               </Group>
             </DimensionLayout>
             <DimensionLayout dim="1">
@@ -99,9 +100,9 @@
                       <Component id="lbConsultas" min="-2" pref="34" max="-2" attributes="0"/>
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
                       <Component id="lbVentas" min="-2" pref="36" max="-2" attributes="0"/>
-                      <EmptySpace min="-2" pref="171" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
                       <Component id="cerrarSesion" min="-2" pref="44" max="-2" attributes="0"/>
-                      <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -110,7 +111,6 @@
             <Component class="javax.swing.JLabel" name="lbConsultas">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Consultas/Cambios"/>
-                <Property name="enabled" type="boolean" value="false"/>
               </Properties>
               <Events>
                 <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="lbConsultasMouseClicked"/>
@@ -122,7 +122,6 @@
             <Component class="javax.swing.JLabel" name="lbAltas">
               <Properties>
                 <Property name="text" type="java.lang.String" value="          Altas"/>
-                <Property name="enabled" type="boolean" value="false"/>
                 <Property name="horizontalTextPosition" type="int" value="10"/>
               </Properties>
               <Events>
@@ -135,7 +134,6 @@
             <Component class="javax.swing.JLabel" name="cerrarSesion">
               <Properties>
                 <Property name="text" type="java.lang.String" value="  Cerrar sesi&#xf3;n "/>
-                <Property name="enabled" type="boolean" value="false"/>
               </Properties>
               <AuxValues>
                 <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
@@ -144,7 +142,6 @@
             <Component class="javax.swing.JLabel" name="lbVentas">
               <Properties>
                 <Property name="text" type="java.lang.String" value="          Venta"/>
-                <Property name="enabled" type="boolean" value="false"/>
               </Properties>
               <AuxValues>
                 <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
@@ -186,7 +183,7 @@
                               <Component id="Ingresar" min="-2" max="-2" attributes="0"/>
                           </Group>
                       </Group>
-                      <EmptySpace pref="488" max="32767" attributes="0"/>
+                      <EmptySpace pref="478" max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
